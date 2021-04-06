@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E8CDD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:padding="10dp"
+        app:srcCompat="@drawable/circuit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Circuits Tunisie"
+        android:textColor="#0B0909"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="false"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:shadowColor="#FAFAFA" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Mot De Passe"
+        android:inputType="textPassword"
+        tools:text="Mot De Passe" />
+
+    <Button
+        android:id="@+id/btnConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Connection"
+        app:backgroundTint="#040C35" />
+
+    <Button
+        android:id="@+id/btnInscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Inscription"
+        app:backgroundTint="#040C35" />
+
+</LinearLayout>
